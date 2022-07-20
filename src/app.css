@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+button {
+    background-color: wheat;
+    height: 10vh;
+    width: 20vh;
+    margin-top: 40vh;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 5px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+button:active {
+    background-color: antiquewhite;
+    color: gray;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 90vh;
+    border: 20px solid white;
+  
+}
+
+.footer {
+    text-align: center;
+    transition: all 2s;
+
+}
+
+.footer:hover {
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: all 2s;
+}
+
+h2 {
+    margin: 0;
+}
