@@ -3,7 +3,7 @@ import "./app.css"
 
 function App() {
 
-  const [mycolor, Setmycolor] = useState("black")
+  const [mycolor, Setmycolor] = useState("rgb(0, 0, 0)")
 
 
   const myStyle = {
@@ -41,9 +41,10 @@ function App() {
   return (
     <>
       <div className="container" style={myStyle}>
+        <div className="colorcode"><span>{mycolor}</span></div>
         <button onClick={clickfunc}>Press Me</button>
       </div>
-      <div className="footer"><h2>&#169; Arman Kazi 2022</h2></div>
+      <div className="footer"><h2>Arman Kazi 2022</h2></div>
     </>
   );
 }

@@ -7,7 +7,6 @@ button {
     background-color: wheat;
     height: 10vh;
     width: 20vh;
-    margin-top: 40vh;
     font-size: 1.5rem;
     font-weight: bold;
     border: 5px solid black;
@@ -43,4 +42,12 @@ button:active {
 
 h2 {
     margin: 0;
+}
+
+.colorcode{
+    margin-top: 30vh;
+    margin-bottom: 5vh;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
